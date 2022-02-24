@@ -20,7 +20,7 @@ const Papers = () => {
                         <h4>Ontology-based data integration for the internet of things in a scientific software ecosystem</h4>
                     </a>
                     <h5>International Journal of Computer Applications in Technology (In Press)</h5>
-                    <h6>DOI: 10.1504/IJCAT.2022.10044215</h6>
+                    <p>DOI: 10.1504/IJCAT.2022.10044215</p>
                 </div>
 
                 <div className={styles.card_papers_2}>
