@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.span {
+    margin: 0 0.5rem
+}
+
+.a_next:hover {
+    color: rgba(250, 25, 85, 0.78);
+}
+
+.span::selection {
+    background: white;
+}
+
+.footer_text {
+
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+.footer_icons:hover {
+    color: #eaeaea;
+}
+
+.linkedin {
+    margin-left: 0.5rem;
+}
+
