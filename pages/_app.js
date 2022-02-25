@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Head from 'next/head'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Script from 'next/script'
 
 function MyApp({Component, pageProps}) {
     return (
@@ -13,9 +14,9 @@ function MyApp({Component, pageProps}) {
                       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
                       crossOrigin="anonymous"/>
 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"/>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"/>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"/>
+                <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"/>
+                <Script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"/>
+                <Script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"/>
             </Head>
 
             <div className="container">
