@@ -17,7 +17,7 @@ const Education = () => {
                 <div className={styles.text_box}>
 
                     <div className={styles.text}>
-                        <a href="https://inatel.br/" className={styles.a_section} target="_blank"
+                        <a href="https://www2.ufjf.br/ufjf/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>Universidade Federal de Juiz de Fora</h4>
                         </a>
@@ -26,7 +26,7 @@ const Education = () => {
                     </div>
 
                     <div className={styles.text}>
-                        <a href="https://tentaculo.digital/" className={styles.a_section} target="_blank"
+                        <a href="https://www.uff.br/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>Universidade Federal Fluminense</h4>
                         </a>
@@ -35,7 +35,7 @@ const Education = () => {
                     </div>
 
                     <div className={styles.text}>
-                        <a href="https://hicss.hawaii.edu/" className={styles.a_section} target="_blank"
+                        <a href="https://www.maynoothuniversity.ie/" className={styles.a_section} target="_blank"
                            rel="noopener noreferrer">
                             <h4>National University of Ireland, Maynooth</h4>
                         </a>
