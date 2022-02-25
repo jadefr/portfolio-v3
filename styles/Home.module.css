@@ -177,6 +177,16 @@
   margin-left: 0.3rem;
 }
 
+.journal_text {
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: #ff6a00;
+}
+
+.journal_text::selection {
+  background: white;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

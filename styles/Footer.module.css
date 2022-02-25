@@ -16,14 +16,6 @@
     color: rgba(250, 25, 85, 0.78);
 }
 
-.span::selection {
-    background: white;
-}
-
-.footer_text {
-
-}
-
 .footer_icons {
     display: flex;
     flex-direction: row;

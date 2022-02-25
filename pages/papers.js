@@ -19,7 +19,7 @@ const Papers = () => {
                        rel="noopener noreferrer">
                         <h4>Ontology-based data integration for the internet of things in a scientific software ecosystem</h4>
                     </a>
-                    <h5>International Journal of Computer Applications in Technology (In Press)</h5>
+                    <p className={styles.journal_text}>International Journal of Computer Applications in Technology (In Press)</p>
                     <p>DOI: 10.1504/IJCAT.2022.10044215</p>
                 </div>
 
@@ -28,8 +28,8 @@ const Papers = () => {
                        rel="noopener noreferrer">
                         <h4>Supporting the Collaborative Research through Semantic Data Integration</h4>
                     </a>
-                    <h5>2019 IEEE 23rd International Conference on Computer Supported Cooperative Work in Design (CSCWD)</h5>
-                    <h6>DOI: 10.1109/CSCWD46598.2019</h6>
+                    <p className={styles.journal_text}>2019 IEEE 23rd International Conference on Computer Supported Cooperative Work in Design (CSCWD)</p>
+                    <p>DOI: 10.1109/CSCWD46598.2019</p>
                 </div>
 
             </main>
