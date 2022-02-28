@@ -20,10 +20,6 @@
   align-items: center;
 }
 
-.main_papers {
-  padding: 2% 0;
-  height: 70vh;
-}
 
 .span {
   color: #0070f3;
@@ -114,7 +110,7 @@
 
 .card_papers_1 h4:hover,
 .card_papers_2 h4:hover {
-  color: #0070f3;
+  color: #00f37a;
 }
 
 .logo {
@@ -199,5 +195,11 @@
 
   .tech {
     flex-direction: column;
+  }
+
+  .card_papers_2,
+  .card_papers_1 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

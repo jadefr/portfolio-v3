@@ -88,6 +88,8 @@ const Nav = ()=>{
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "collapse navbar-collapse",
                     id: "navbarNavAltMarkup",
+                    "data-toggle": "collapse",
+                    "data-target": ".navbar-collapse",
                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "navbar-nav",
                         children: [
@@ -241,6 +243,11 @@ function MyApp({ Component , pageProps  }) {
                         rel: "stylesheet",
                         integrity: "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC",
                         crossOrigin: "anonymous"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "icon",
+                        type: "image/x-icon",
+                        href: "public/favicon.ico"
                     })
                 ]
             }),

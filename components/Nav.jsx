@@ -16,7 +16,7 @@ const Nav = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup" data-toggle="collapse" data-target=".navbar-collapse">
                     <div className="navbar-nav">
                         <Link href="/work" passHref>
                             <a className={styles.a}><p className="ms-5 pointer lead my-auto">Work</p></a>
