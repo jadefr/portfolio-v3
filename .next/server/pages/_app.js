@@ -208,7 +208,6 @@ const Footer = ()=>{
 
 ;// CONCATENATED MODULE: external "next/script"
 const script_namespaceObject = require("next/script");
-var script_default = /*#__PURE__*/__webpack_require__.n(script_namespaceObject);
 ;// CONCATENATED MODULE: ./pages/_app.js
 
 
@@ -228,20 +227,20 @@ function MyApp({ Component , pageProps  }) {
                         name: "viewport",
                         content: "width=device-width, initial-scale=1, shrink-to-fit=no"
                     }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        src: "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("script", {
+                        src: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                    }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
                         rel: "stylesheet",
                         integrity: "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC",
                         crossOrigin: "anonymous"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
-                        src: "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
-                        src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
-                        src: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
                     })
                 ]
             }),
